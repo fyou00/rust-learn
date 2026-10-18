@@ -1,22 +1,27 @@
 fn main() {
-    let nama_produk = "Buku";
-    println!("nama_produk: {}", nama_produk);
+    let stok_awal = 30;
+    let mut stok = stok_awal;
+    println!("stok awal: {}", stok);
     
-    let mut stok = 12;
-    stok -= 3;
+    // barang masuk
+    let barang_masuk = 10;
+    stok += barang_masuk;
+    println!("ada barang masuk! (+{}) stok: {}", barang_masuk, stok);
+    
+    print!("memasuki sesi penjualan pagi... ");
+    let penjualan_pagi = 8;
+    stok -= penjualan_pagi;
+    println!("(terjual: {})", penjualan_pagi);
     println!("stok: {}", stok);
     
-    let mut poin = 0;
-    poin += 10;
-    poin += 15;
-    println!("poin: {}", poin);
-}
-
-#[test]
-fn test_var() {
-    let var1 = 20;
-    let mut var2 = 3;
-    println!("var1: {}, var2 (before): {}", var1, var2);
-    var2 = 5;
-    println!("var1: {}, var2 (after): {}", var1, var2);
+    print!("memasuki sesi penjualan sore... ");
+    let penjualan_sore = 7;
+    stok -= penjualan_sore;
+    println!("(terjual: {})", penjualan_sore);
+    println!("stok: {}", stok);
+    
+    println!("===================================");
+    println!("perbandingan stok_awal dan stok");
+    println!("stok_awal: {}", stok_awal);
+    println!("stok (akhir): {}", stok);
 }
