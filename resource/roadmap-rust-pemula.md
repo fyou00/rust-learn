@@ -707,12 +707,12 @@ fn main() {
 
 * [ ] Saya sudah menyelesaikan lima Hands-On Challenge dan memeriksa target hasilnya.
 * [ ] Saya sudah mencoba Exercises Level 1 dan Level 2 pada setiap bab.
-* \[ \] Saya bisa memilih kapan memakai `let` dan `let mut`.
-* \[ \] Saya bisa membedakan bilangan bulat, pecahan, `bool`, `char`, dan teks.
-* \[ \] Saya bisa membuat fungsi dengan parameter dan nilai kembalian.
-* \[ \] Saya bisa menggunakan `if` dan `for` untuk mengatur alur program.
-* \[ \] Saya bisa menjelaskan perbedaan *move*, peminjaman, dan `Copy` secara sederhana.
-* \[ \] Saya sudah memperbaiki kelima tantangan debugging dan mengeceknya dengan compiler.
+* [x] Saya bisa memilih kapan memakai `let` dan `let mut`.
+* [ ] Saya bisa membedakan bilangan bulat, pecahan, `bool`, `char`, dan teks.
+* [ ] Saya bisa membuat fungsi dengan parameter dan nilai kembalian.
+* [ ] Saya bisa menggunakan `if` dan `for` untuk mengatur alur program.
+* [ ] Saya bisa menjelaskan perbedaan *move*, peminjaman, dan `Copy` secara sederhana.
+* [ ] Saya sudah memperbaiki kelima tantangan debugging dan mengeceknya dengan compiler.
 
 **Langkah berikutnya:** pelajari `struct` dan `enum`, pencocokan pola dengan `match`, koleksi seperti `Vec`, penanganan kegagalan dengan `Option` dan `Result`, serta pengujian menggunakan `cargo test`.
 
