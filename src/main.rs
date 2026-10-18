@@ -1,10 +1,14 @@
 fn main() {
-  println!("Hello, world!");
-}
+    let pemilik = "fathur";
+    let mut saldo = 50_000;
+    
+    // ada pemasukan
+    let pemasukan = 20_000;
+    saldo = saldo + pemasukan;    
 
-#[test]
-fn test_variable() {
-  let harga = 120;
-  let skor = 4;
-  println!("harga: {}, skor: {}", harga, skor)
+    // makan
+    let harga_makan = 15_000;
+    saldo = saldo - harga_makan;
+
+    println!("dompet {}, saldo: {}", pemilik, saldo);
 }
