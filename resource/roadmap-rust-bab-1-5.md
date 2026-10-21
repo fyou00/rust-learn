@@ -202,14 +202,14 @@ fn main() {
     let umur: i32 = 20;
     let tinggi: f64 = 1.70;
     let sedang_belajar: bool = true;
-    let inisial: char = 'A';
-    let nama: &str = "Ayu";
+    let inisial: char = 'F';
+    let nama: &str = "Fathur";
     println!("{} ({}), umur {} tahun", nama, inisial, umur);
     println!("Tinggi: {} meter; belajar: {}", tinggi, sedang_belajar);
 }
 ```
 
-> **Perhatikan:** `'A'` adalah `char`, sedangkan `"A"` adalah teks. Bentuk petiknya punya arti!
+> **Perhatikan:** `'F'` adalah `char`, sedangkan `"F"` adalah teks. Bentuk petiknya punya arti!
 
 ### 3. 📝 Tugas Jawaban
 
@@ -217,17 +217,16 @@ fn main() {
 
 ```text
 Jawaban:
-- Jumlah buku:
-- Harga dengan pecahan:
-- Status lampu:
+- Jumlah buku: i32
+- Harga dengan pecahan: f64
+- Status lampu: bool
 
 ```
 
 **Pertanyaan 2:** Apa perbedaan `'R'` dan `"Rust"` dari sisi tipe data?
 
 ```text
-Jawaban:
-
+Jawaban: perbedaanya petik satu mewakili char sedangkan petik dua mewakili str (string)
 
 ```
 
